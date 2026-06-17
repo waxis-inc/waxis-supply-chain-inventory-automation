@@ -1,0 +1,45 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Waxis Supply Chain and Inventory Automation dashboard</title>
+  <desc id="desc">A black and white dashboard illustration showing inventory health, replenishment, supplier risk, forecast, and exceptions.</desc>
+  <style>
+    .bg{fill:#fff}.line{stroke:#111;stroke-width:1.4}.soft{stroke:#cfcfcf;stroke-width:1}.panel{fill:#fff;stroke:#111;stroke-width:1.4}.sub{fill:#f7f7f7;stroke:#d8d8d8}.title{font:600 24px Inter,Arial,sans-serif;fill:#111}.h{font:600 15px Inter,Arial,sans-serif;fill:#111}.t{font:500 12px Inter,Arial,sans-serif;fill:#555}.xs{font:500 10px Inter,Arial,sans-serif;fill:#777}
+  </style>
+  <rect class="bg" width="1280" height="720"/>
+  <rect x="70" y="58" width="1140" height="604" rx="26" class="panel"/>
+  <rect x="70" y="58" width="1140" height="58" rx="26" class="sub"/>
+  <path d="M70 94H1210" class="soft"/>
+  <circle cx="104" cy="86" r="7" fill="#111"/><circle cx="128" cy="86" r="7" fill="#777"/><circle cx="152" cy="86" r="7" fill="#d0d0d0"/>
+  <text x="188" y="93" class="title">Waxis Supply Chain Automation</text>
+  <rect x="98" y="146" width="238" height="210" rx="18" class="panel"/>
+  <text x="124" y="181" class="h">Inventory Health</text>
+  <g stroke="#d8d8d8"><path d="M128 220H306M128 260H306M128 300H306M164 208V328M214 208V328M264 208V328"/></g>
+  <rect x="130" y="222" width="32" height="36" fill="#111"/><rect x="166" y="262" width="46" height="36" fill="#777"/><rect x="216" y="222" width="46" height="76" fill="#d8d8d8"/><rect x="266" y="302" width="38" height="24" fill="#111"/>
+  <rect x="366" y="146" width="386" height="210" rx="18" class="panel"/>
+  <text x="392" y="181" class="h">Replenishment Queue</text>
+  <rect x="392" y="214" width="320" height="36" rx="10" class="sub"/>
+  <rect x="392" y="266" width="320" height="36" rx="10" class="sub"/>
+  <rect x="392" y="318" width="320" height="24" rx="12" fill="#fff" stroke="#111"/>
+  <circle cx="690" cy="232" r="8" fill="#111"/><circle cx="690" cy="284" r="8" fill="#777"/>
+  <rect x="782" y="146" width="378" height="210" rx="18" class="panel"/>
+  <text x="808" y="181" class="h">Demand Forecast</text>
+  <path d="M820 304L866 266L916 282L972 230L1030 252L1108 210" class="line"/>
+  <path d="M820 304H1120M820 250H1120M820 200H1120" class="soft"/>
+  <rect x="98" y="386" width="328" height="218" rx="18" class="panel"/>
+  <text x="124" y="421" class="h">Supplier Risk</text>
+  <rect x="124" y="454" width="252" height="38" rx="10" class="sub"/>
+  <rect x="124" y="508" width="252" height="38" rx="10" class="sub"/>
+  <path d="M124 572H376" class="soft"/><path d="M124 572H310" class="line"/>
+  <rect x="456" y="386" width="322" height="218" rx="18" class="panel"/>
+  <text x="482" y="421" class="h">Exception Workbench</text>
+  <rect x="482" y="456" width="248" height="30" rx="15" fill="#111"/>
+  <rect x="482" y="504" width="248" height="30" rx="15" fill="#f7f7f7" stroke="#111"/>
+  <rect x="482" y="552" width="188" height="30" rx="15" fill="#f7f7f7" stroke="#d8d8d8"/>
+  <rect x="808" y="386" width="352" height="218" rx="18" class="panel"/>
+  <text x="834" y="421" class="h">Scenario Impact</text>
+  <rect x="842" y="466" width="48" height="92" fill="#111"/>
+  <rect x="910" y="494" width="48" height="64" fill="#777"/>
+  <rect x="978" y="438" width="48" height="120" fill="#d8d8d8"/>
+  <rect x="1046" y="482" width="48" height="76" fill="#111"/>
+  <path d="M832 558H1120" class="soft"/>
+</svg>
+
