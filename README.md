@@ -2,7 +2,15 @@
 
 AI-assisted supply chain software for inventory health, replenishment, supplier risk, warehouse exceptions, demand shifts, and planner approval workflows.
 
+## Product Preview
+
 ![Waxis Supply Chain and Inventory Automation dashboard](./docs/images/product-dashboard.svg)
+
+![Waxis Supply Chain and Inventory Automation workflow](./docs/images/product-workflow.svg)
+
+![Waxis Supply Chain and Inventory Automation architecture](./docs/images/product-architecture.svg)
+
+
 
 ## What It Is
 
@@ -61,4 +69,3 @@ The complete product requirements document is here:
 ## Research Basis
 
 This repo uses a June 2026 research snapshot across official supply-chain planning, AI-agent, demand-sensing, inventory, and enterprise-governance sources, including SAP IBP, Oracle SCM AI Agents, AWS demand sensing, Blue Yonder supply chain research, NIST AI RMF, and OWASP LLM Top 10.
-

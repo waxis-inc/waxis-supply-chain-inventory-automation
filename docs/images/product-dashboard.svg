@@ -1,55 +1,79 @@
-<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Waxis Supply Chain and Inventory Automation dashboard</title>
-  <desc id="desc">A black and white dashboard illustration showing inventory health, replenishment, supplier risk, forecast, and exceptions.</desc>
-  <style>
-    .bg{fill:#fff}.line{stroke:#111;stroke-width:1.4}.soft{stroke:#cfcfcf;stroke-width:1}.panel{fill:#fff;stroke:#111;stroke-width:1.4}.sub{fill:#f7f7f7;stroke:#d8d8d8}.title{font:600 24px Inter,Arial,sans-serif;fill:#111}.h{font:600 15px Inter,Arial,sans-serif;fill:#111}.t{font:500 12px Inter,Arial,sans-serif;fill:#555}.xs{font:500 10px Inter,Arial,sans-serif;fill:#777}
-  </style>
-  <rect class="bg" width="1280" height="720"/>
-  <rect x="70" y="58" width="1140" height="604" rx="26" class="panel"/>
-  <rect x="70" y="58" width="1140" height="58" rx="26" class="sub"/>
-  <path d="M70 94H1210" class="soft"/>
-  <circle cx="104" cy="86" r="7" fill="#111"/><circle cx="128" cy="86" r="7" fill="#777"/><circle cx="152" cy="86" r="7" fill="#d0d0d0"/>
-  <text x="188" y="93" class="title">Waxis Supply Chain Automation</text>
-  <rect x="98" y="146" width="238" height="210" rx="18" class="panel"/>
-  <text x="124" y="181" class="h">Inventory Health</text>
-  <g stroke="#d8d8d8"><path d="M128 220H306M128 260H306M128 300H306M164 208V328M214 208V328M264 208V328"/></g>
-  <rect x="130" y="222" width="32" height="36" fill="#111"/><rect x="166" y="262" width="46" height="36" fill="#777"/><rect x="216" y="222" width="46" height="76" fill="#d8d8d8"/><rect x="266" y="302" width="38" height="24" fill="#111"/>
-  <text x="126" y="340" class="xs">SKU Risk</text>
-  <text x="214" y="340" class="xs">Stockout Date</text>
-  <rect x="366" y="146" width="386" height="210" rx="18" class="panel"/>
-  <text x="392" y="181" class="h">Replenishment Queue</text>
-  <rect x="392" y="214" width="320" height="36" rx="10" class="sub"/>
-  <rect x="392" y="266" width="320" height="36" rx="10" class="sub"/>
-  <rect x="392" y="318" width="320" height="24" rx="12" fill="#fff" stroke="#111"/>
-  <circle cx="690" cy="232" r="8" fill="#111"/><circle cx="690" cy="284" r="8" fill="#777"/>
-  <text x="414" y="237" class="xs">approve reorder</text>
-  <text x="414" y="289" class="xs">edit transfer qty</text>
-  <text x="414" y="335" class="xs">Approval State</text>
-  <rect x="782" y="146" width="378" height="210" rx="18" class="panel"/>
-  <text x="808" y="181" class="h">Demand Forecast</text>
-  <path d="M820 304L866 266L916 282L972 230L1030 252L1108 210" class="line"/>
-  <path d="M820 304H1120M820 250H1120M820 200H1120" class="soft"/>
-  <rect x="98" y="386" width="328" height="218" rx="18" class="panel"/>
-  <text x="124" y="421" class="h">Supplier Delay</text>
-  <rect x="124" y="454" width="252" height="38" rx="10" class="sub"/>
-  <rect x="124" y="508" width="252" height="38" rx="10" class="sub"/>
-  <path d="M124 572H376" class="soft"/><path d="M124 572H310" class="line"/>
-  <text x="144" y="478" class="xs">lead time variance</text>
-  <text x="144" y="532" class="xs">affected customer orders</text>
-  <text x="124" y="594" class="xs">Working Capital</text>
-  <rect x="456" y="386" width="322" height="218" rx="18" class="panel"/>
-  <text x="482" y="421" class="h">Warehouse Exceptions</text>
-  <rect x="482" y="456" width="248" height="30" rx="15" fill="#111"/>
-  <rect x="482" y="504" width="248" height="30" rx="15" fill="#f7f7f7" stroke="#111"/>
-  <rect x="482" y="552" width="188" height="30" rx="15" fill="#f7f7f7" stroke="#d8d8d8"/>
-  <text x="500" y="475" class="xs" fill="#fff">stockout alert</text>
-  <text x="500" y="523" class="xs">late inbound</text>
-  <text x="500" y="571" class="xs">Planner Assistant</text>
-  <rect x="808" y="386" width="352" height="218" rx="18" class="panel"/>
-  <text x="834" y="421" class="h">Scenario Impact</text>
-  <rect x="842" y="466" width="48" height="92" fill="#111"/>
-  <rect x="910" y="494" width="48" height="64" fill="#777"/>
-  <rect x="978" y="438" width="48" height="120" fill="#d8d8d8"/>
-  <rect x="1046" y="482" width="48" height="76" fill="#111"/>
-  <path d="M832 558H1120" class="soft"/>
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Waxis Supply Chain &amp; Inventory Automation">
+
+<style>
+.bg{fill:#fff}.window{fill:#fff;stroke:#111;stroke-width:1.25}.bar{fill:#f7f7f7;stroke:#ddd;stroke-width:1}.panel{fill:#fff;stroke:#111;stroke-width:1.15}.soft{fill:#fafafa;stroke:#d9d9d9;stroke-width:1}.ghost{fill:#f6f6f6;stroke:#e5e5e5;stroke-width:1}.black{fill:#111}.mid{fill:#777}.light{fill:#d8d8d8}.line{stroke:#111;stroke-width:1.25;fill:none}.thin{stroke:#d4d4d4;stroke-width:1;fill:none}.dash{stroke:#999;stroke-width:1;stroke-dasharray:5 5;fill:none}.title{font:700 24px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#111}.sub{font:500 11px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#666}.h{font:700 15px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#111}.t{font:500 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#555}.xs{font:500 10px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#777}.tiny{font:500 8.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#777}.whiteText{font:700 10px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#fff}.mono{font:500 10px SFMono-Regular,Menlo,Consolas,monospace;fill:#555}
+</style>
+
+<rect class="bg" width="1280" height="720"/>
+<rect x="48" y="42" width="1184" height="636" rx="28" class="window"/>
+<rect x="48" y="42" width="1184" height="64" rx="28" class="bar"/>
+<path d="M48 82H1232" class="thin"/>
+<circle cx="84" cy="74" r="7" class="black"/><circle cx="110" cy="74" r="7" class="mid"/><circle cx="136" cy="74" r="7" class="light"/>
+<text x="176" y="72" class="title">Waxis Supply Chain &amp; Inventory Automation</text>
+<text x="176" y="94" class="sub">Inventory health, replenishment, supplier risk, exceptions, and planner approvals.</text>
+
+<rect x="82" y="138" width="200" height="500" rx="18" class="soft"/>
+<text x="110" y="176" class="h">Product Surface</text>
+<rect x="110" y="218" width="140" height="25" rx="12" fill="#111" stroke="#111" stroke-width="1"/><text x="124" y="235" class="whiteText">Control Tower</text>
+<rect x="110" y="264" width="140" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="124" y="281" class="xs">SKUs</text>
+<rect x="110" y="310" width="140" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="124" y="327" class="xs">Supplier</text>
+<rect x="110" y="356" width="140" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="124" y="373" class="xs">Scenario</text>
+<rect x="110" y="402" width="140" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="124" y="419" class="xs">Tasks</text>
+<path d="M110 568H250" class="thin"/>
+<text x="110" y="604" class="xs">Production-grade view</text>
+<rect x="318" y="138" width="150" height="74" rx="14" class="panel"/><text x="336" y="168" class="xs">Stockout Risk</text><rect x="336" y="181" width="92" height="10" rx="5" fill="#111"/>
+<rect x="486" y="138" width="150" height="74" rx="14" class="panel"/><text x="504" y="168" class="xs">Supplier Delay</text><rect x="504" y="181" width="92" height="10" rx="5" fill="#111"/>
+<rect x="654" y="138" width="150" height="74" rx="14" class="panel"/><text x="672" y="168" class="xs">Inventory Value</text><rect x="672" y="181" width="92" height="10" rx="5" fill="#111"/>
+<rect x="822" y="138" width="150" height="74" rx="14" class="panel"/><text x="840" y="168" class="xs">Working Capital</text><rect x="840" y="181" width="92" height="10" rx="5" fill="#111"/>
+<rect x="318" y="246" width="300" height="216" rx="18" class="panel"/>
+<text x="344" y="282" class="h">SKU-location Heatmap</text>
+<rect x="344" y="312" width="28" height="22" rx="5" fill="#111" stroke="#ddd"/>
+<rect x="382" y="312" width="28" height="22" rx="5" fill="#777" stroke="#ddd"/>
+<rect x="420" y="312" width="28" height="22" rx="5" fill="#d8d8d8" stroke="#ddd"/>
+<rect x="458" y="312" width="28" height="22" rx="5" fill="#f5f5f5" stroke="#ddd"/>
+<rect x="496" y="312" width="28" height="22" rx="5" fill="#111" stroke="#ddd"/>
+<rect x="534" y="312" width="28" height="22" rx="5" fill="#777" stroke="#ddd"/>
+<rect x="344" y="342" width="28" height="22" rx="5" fill="#777" stroke="#ddd"/>
+<rect x="382" y="342" width="28" height="22" rx="5" fill="#d8d8d8" stroke="#ddd"/>
+<rect x="420" y="342" width="28" height="22" rx="5" fill="#f5f5f5" stroke="#ddd"/>
+<rect x="458" y="342" width="28" height="22" rx="5" fill="#111" stroke="#ddd"/>
+<rect x="496" y="342" width="28" height="22" rx="5" fill="#777" stroke="#ddd"/>
+<rect x="534" y="342" width="28" height="22" rx="5" fill="#d8d8d8" stroke="#ddd"/>
+<rect x="344" y="372" width="28" height="22" rx="5" fill="#d8d8d8" stroke="#ddd"/>
+<rect x="382" y="372" width="28" height="22" rx="5" fill="#f5f5f5" stroke="#ddd"/>
+<rect x="420" y="372" width="28" height="22" rx="5" fill="#111" stroke="#ddd"/>
+<rect x="458" y="372" width="28" height="22" rx="5" fill="#777" stroke="#ddd"/>
+<rect x="496" y="372" width="28" height="22" rx="5" fill="#d8d8d8" stroke="#ddd"/>
+<rect x="534" y="372" width="28" height="22" rx="5" fill="#f5f5f5" stroke="#ddd"/>
+<rect x="344" y="402" width="28" height="22" rx="5" fill="#f5f5f5" stroke="#ddd"/>
+<rect x="382" y="402" width="28" height="22" rx="5" fill="#111" stroke="#ddd"/>
+<rect x="420" y="402" width="28" height="22" rx="5" fill="#777" stroke="#ddd"/>
+<rect x="458" y="402" width="28" height="22" rx="5" fill="#d8d8d8" stroke="#ddd"/>
+<rect x="496" y="402" width="28" height="22" rx="5" fill="#f5f5f5" stroke="#ddd"/>
+<rect x="534" y="402" width="28" height="22" rx="5" fill="#111" stroke="#ddd"/>
+<text x="344" y="444" class="tiny">SKU Risk / Stockout Date / Days of Supply</text>
+<rect x="646" y="246" width="260" height="216" rx="18" class="panel"/>
+<text x="672" y="282" class="h">Replenishment Queue</text>
+<rect x="672" y="316" width="178" height="34" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="1"/>
+<text x="690" y="338" class="xs">approve reorder</text>
+<circle cx="862" cy="333" r="6" fill="#111"/>
+<rect x="672" y="364" width="178" height="34" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="1"/>
+<text x="690" y="386" class="xs">edit transfer qty</text>
+<circle cx="862" cy="381" r="6" fill="#111"/>
+<rect x="672" y="412" width="178" height="34" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="1"/>
+<text x="690" y="434" class="xs">defer action</text>
+<circle cx="862" cy="429" r="6" fill="#111"/>
+<rect x="934" y="246" width="224" height="216" rx="18" class="panel"/>
+<text x="960" y="282" class="h">Supplier Delay</text>
+<path d="M968 404L1012 360L1058 374L1120 320" class="line"/>
+<path d="M968 404H1128M968 356H1128" class="thin"/>
+<text x="968" y="432" class="tiny">lead time variance / affected orders</text>
+<rect x="318" y="492" width="410" height="120" rx="18" class="panel"/>
+<text x="344" y="528" class="h">Warehouse Exceptions</text>
+<rect x="344" y="556" width="104" height="25" rx="12" fill="#111" stroke="#111" stroke-width="1"/><text x="358" y="573" class="whiteText">stockout alert</text>
+<rect x="466" y="556" width="104" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="480" y="573" class="xs">late inbound</text>
+<rect x="588" y="556" width="104" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="602" y="573" class="xs">blocked pick</text>
+<rect x="758" y="492" width="400" height="120" rx="18" class="panel"/>
+<text x="784" y="528" class="h">Scenario Impact</text>
+<rect x="800" y="558" width="42" height="42" fill="#111"/><rect x="862" y="570" width="42" height="30" fill="#777"/><rect x="924" y="546" width="42" height="54" fill="#d8d8d8"/><path d="M1002 596L1048 564L1092 578L1134 548" class="line"/>
 </svg>
