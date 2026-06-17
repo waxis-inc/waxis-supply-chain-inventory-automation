@@ -14,26 +14,37 @@
   <text x="124" y="181" class="h">Inventory Health</text>
   <g stroke="#d8d8d8"><path d="M128 220H306M128 260H306M128 300H306M164 208V328M214 208V328M264 208V328"/></g>
   <rect x="130" y="222" width="32" height="36" fill="#111"/><rect x="166" y="262" width="46" height="36" fill="#777"/><rect x="216" y="222" width="46" height="76" fill="#d8d8d8"/><rect x="266" y="302" width="38" height="24" fill="#111"/>
+  <text x="126" y="340" class="xs">SKU Risk</text>
+  <text x="214" y="340" class="xs">Stockout Date</text>
   <rect x="366" y="146" width="386" height="210" rx="18" class="panel"/>
   <text x="392" y="181" class="h">Replenishment Queue</text>
   <rect x="392" y="214" width="320" height="36" rx="10" class="sub"/>
   <rect x="392" y="266" width="320" height="36" rx="10" class="sub"/>
   <rect x="392" y="318" width="320" height="24" rx="12" fill="#fff" stroke="#111"/>
   <circle cx="690" cy="232" r="8" fill="#111"/><circle cx="690" cy="284" r="8" fill="#777"/>
+  <text x="414" y="237" class="xs">approve reorder</text>
+  <text x="414" y="289" class="xs">edit transfer qty</text>
+  <text x="414" y="335" class="xs">Approval State</text>
   <rect x="782" y="146" width="378" height="210" rx="18" class="panel"/>
   <text x="808" y="181" class="h">Demand Forecast</text>
   <path d="M820 304L866 266L916 282L972 230L1030 252L1108 210" class="line"/>
   <path d="M820 304H1120M820 250H1120M820 200H1120" class="soft"/>
   <rect x="98" y="386" width="328" height="218" rx="18" class="panel"/>
-  <text x="124" y="421" class="h">Supplier Risk</text>
+  <text x="124" y="421" class="h">Supplier Delay</text>
   <rect x="124" y="454" width="252" height="38" rx="10" class="sub"/>
   <rect x="124" y="508" width="252" height="38" rx="10" class="sub"/>
   <path d="M124 572H376" class="soft"/><path d="M124 572H310" class="line"/>
+  <text x="144" y="478" class="xs">lead time variance</text>
+  <text x="144" y="532" class="xs">affected customer orders</text>
+  <text x="124" y="594" class="xs">Working Capital</text>
   <rect x="456" y="386" width="322" height="218" rx="18" class="panel"/>
-  <text x="482" y="421" class="h">Exception Workbench</text>
+  <text x="482" y="421" class="h">Warehouse Exceptions</text>
   <rect x="482" y="456" width="248" height="30" rx="15" fill="#111"/>
   <rect x="482" y="504" width="248" height="30" rx="15" fill="#f7f7f7" stroke="#111"/>
   <rect x="482" y="552" width="188" height="30" rx="15" fill="#f7f7f7" stroke="#d8d8d8"/>
+  <text x="500" y="475" class="xs" fill="#fff">stockout alert</text>
+  <text x="500" y="523" class="xs">late inbound</text>
+  <text x="500" y="571" class="xs">Planner Assistant</text>
   <rect x="808" y="386" width="352" height="218" rx="18" class="panel"/>
   <text x="834" y="421" class="h">Scenario Impact</text>
   <rect x="842" y="466" width="48" height="92" fill="#111"/>
@@ -42,4 +53,3 @@
   <rect x="1046" y="482" width="48" height="76" fill="#111"/>
   <path d="M832 558H1120" class="soft"/>
 </svg>
-
